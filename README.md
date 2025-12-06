@@ -1,6 +1,5 @@
-# SQL_pizza_hut_sales_analysis
-🍕 SQL Pizza Hut Sales Analysis  A complete SQL analytics project performed on Pizza Hut’s sales dataset containing 21K+ order records. This analysis covers sales trends, menu performance, customer ordering behavior, and revenue insights using advanced SQL techniques.
-
+# Pizza Hut Sales Analysis - SQL & Power BI
+🍕 This project analyzes Pizza Hut’s sales data using SQL and Power BI to uncover key business insights, including revenue trends, customer preferences, and top-selling pizza categories. It demonstrates how data analytics and visualization can drive informed decision-making and improve overall sales performance.
 📊 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄
 
 This project transforms raw transactional sales data into clear business insights using SQL. It mirrors real-world data analytics workflows—data exploration, cleaning, querying, and insight extraction.
@@ -9,17 +8,19 @@ This project transforms raw transactional sales data into clear business insight
 
 SQL, MySQL, Joins, CTEs, Window Functions, Aggregations, Data Analysis & Optimization Techniques
 
-📁 𝗗𝗮𝘁𝗮𝘀𝗲𝘁 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+## 📁 Files Included
 
-The dataset typically contains: 
+| File / Folder               | Description                                                           |
+|-----------------------------|-----------------------------------------------------------------------|
+| pizzas.csv                  | Contains all pizza names, sizes, IDs, and prices                     |
+| pizza_types.csv             | Includes details of pizza categories like Classic, Supreme, Veggie, and Chicken |
+| orders.csv                  | Stores all order information with order ID, date, and time           |
+| order_details.csv           | Item-level data showing quantity and pizza IDs for each order        |
+| Power BI Dashboard.pbix     | Interactive Power BI dashboard showing key metrics and visuals       |
+| PizzaHut_Presentation.pptx  | Presentation slides for project explanation                          |
+| SQL_Project_Report.docx     | Detailed Word document report for submission                         |
+| README.md                   | You’re reading it now 😄                                              |
 
-1. orders – order-level details
-
-2. order_details – pizza-level details
-
-3. pizzas – pizza size & price
-
-4. pizza_types – pizza category & ingredients
 
    Total Records: 21,000+
 
