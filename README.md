@@ -1,49 +1,127 @@
-# Pizza Hut Sales Analysis - SQL & Power BI
-🍕 This project analyzes Pizza Hut’s sales data using SQL and Power BI to uncover key business insights, including revenue trends, customer preferences, and top-selling pizza categories. It demonstrates how data analytics and visualization can drive informed decision-making and improve overall sales performance.
-📊 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄
+# 🍕 Pizza Hut Sales Analysis – SQL & Power BI Project
+📘 Project Overview
 
-This project transforms raw transactional sales data into clear business insights using SQL. It mirrors real-world data analytics workflows—data exploration, cleaning, querying, and insight extraction.
+This project focuses on analyzing Pizza Hut’s sales data using SQL and Power BI to identify key business insights such as revenue trends, customer preferences, and top-selling pizza types.  
+The goal is to demonstrate how data analysis and visualization can support business decisions and optimize sales performance.
 
-🧰 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸
+---
 
-SQL, MySQL, Joins, CTEs, Window Functions, Aggregations, Data Analysis & Optimization Techniques
+🧰 🛠️ Tech Stack
 
-## 📁 Files Included
+### 🔹 SQL
+- Data cleaning and preprocessing  
+- Joins, aggregations, and subqueries  
+- Calculating KPIs (total orders, revenue, pizzas sold)  
+- Date and time-based analysis  
+- Creating views for reporting  
 
-| File / Folder               | Description                                                           |
-|-----------------------------|-----------------------------------------------------------------------|
-| pizzas.csv                  | Contains all pizza names, sizes, IDs, and prices                     |
-| pizza_types.csv             | Includes details of pizza categories like Classic, Supreme, Veggie, and Chicken |
-| orders.csv                  | Stores all order information with order ID, date, and time           |
-| order_details.csv           | Item-level data showing quantity and pizza IDs for each order        |
-| Power BI Dashboard.pbix     | Interactive Power BI dashboard showing key metrics and visuals       |
-| PizzaHut_Presentation.pptx  | Presentation slides for project explanation                          |
-| SQL_Project_Report.docx     | Detailed Word document report for submission                         |
-| README.md                   | You’re reading it now 😄                                              |
+### 🔹 Power BI
+- Data modeling (relationships between tables)  
+- DAX measures for KPIs  
+- Creating interactive dashboards  
+- Time-series charts and category-based visuals  
+- Slicers for filtering by date, category, and pizza size  
+
+### 🔹 Excel / CSV
+- Initial data formatting  
+- Loading and validating raw datasets
+
+### 🔹 Documentation Tools
+- MS Word → Project report  
+- PowerPoint → Presentation for insights
+
+---
+
+🗂 Files Included
+
+| File / Folder              | Description                                                           |
+|----------------------------|-----------------------------------------------------------------------|
+| PIZZAHUT_PPT.pptx          | Presentation slides summarizing the project and key insights          |
+| README.md                  | Project overview                                   |
+| order_details.csv          | Item-level order data showing quantity and pizza IDs for each order  |
+| orders.csv                 | Contains all orders with order ID, order date, and time              |
+| pizza_hut_sales_word_doc.pdf | Detailed project Project documentation and overview                     |
+| pizza_powerBI_report.pbix  | Power BI dashboard file with visuals and KPIs                        |
+| pizza_sales_report_ss1.png | Screenshot 1 of the Power BI dashboard                              |
+| pizza_sales_report_ss2.png | Screenshot 2 of the Power BI dashboard                              |
+| pizza_types.csv            | Includes pizza category details like Classic, Supreme, Veggie, etc.  |
+| pizzas.csv                 | Contains pizza names, pizza IDs, sizes, and prices                   |
+
+---
 
 
-   Total Records: 21,000+
+📊 SQL Analysis Performed
 
-🔍 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗲𝗱
+- Calculated **total number of orders placed**
+- Computed **total revenue generated** by Pizza Hut
+- Identified **most popular pizza categories and types**
+- Found **highest and lowest-priced pizzas**
+- Analyzed **daily and monthly order trends**
+- Determined **average order value** and **pizzas per order**
+- Explored **sales performance by pizza size and category**
 
-1. In this project, I analyzed overall sales performance by calculating the total revenue, total number of orders, the average order value, and by studying daily, monthly, and hourly sales trends to identify peak order times.
 
-2. I performed menu-based insights by determining the top 5 highest-selling pizzas, identifying the least-selling items, and analyzing revenue contributions across pizza categories, pizza sizes, and different pizza types.
+---
+💡 Key Insights
 
-3. I explored customer behavior by finding popular pizza combinations ordered together, detecting order frequency patterns, and understanding category-wise customer preferences.
+Based on SQL computations and Power BI visualization, the following insights were identified:
 
-4. Additionally, I used advanced SQL techniques, including CTEs for multi-step calculations, window functions for ranking pizzas, subqueries for filtering top-performing items, and joins across four or more tables to merge and analyze the data effectively.
+### 🔹 Sales & Revenue Insights
+- **Total Revenue:** ₹8,17,860  
+- **Total Orders:** 21,350  
+- **Total Pizzas Sold:** 49,574  
+- **Average Order Value:** ₹38.30  
+- **Average Daily Orders:** 138.47  
 
-📈 𝗞𝗲𝘆 𝗜𝗻𝘀𝗶𝗴𝗵𝘁𝘀
+### 🔹 Customer Preferences
+- **Most popular category:** Classic pizzas  
+- **Most ordered size:** Large (≈ 46% of total sales)  
+- **Top-selling pizza types:** Classic Deluxe & BBQ Chicken  
 
-1. The Classic & Supreme category generates the highest revenue
+### 🔹 Trend Insights
+- **Busiest month:** July  
+- **Peak ordering hours:** 6 PM – 9 PM  
+- **Peak day:** Friday  
+- Clear weekend spike in orders  
 
-2. Large-sized pizzas contribute a major portion of total sales
+### 🔹 Product Insights
+- **Most expensive pizza:** Greek Pizza  
+- **Highest revenue category:** Classic  
+- **Least ordered pizzas:** Some Veggie and Gourmet variants  
 
-3. Peak order time is typically 6 PM – 8 PM
+### 🔹 Business Takeaways
+- Evening hours contribute the largest share of sales  
+- Large-size pizzas are the most profitable  
+- Classic pizzas should remain a focus area due to high demand  
+- Seasonal trends suggest need for promotional offers during slow months  
 
-4. A few pizzas account for majority of sales
+---
+📚 Project Learnings
 
-✅ 𝗖𝗼𝗻𝗰𝗹𝘂𝘀𝗶𝗼𝗻
+- Gained hands-on experience in **SQL for data cleaning, transformation, and KPI calculations**
+- Learned how to build **interactive dashboards** using Power BI with meaningful visuals and slicers
+- Improved understanding of **data modeling**, relationships, and DAX measures
+- Enhanced ability to **analyze sales data** and extract actionable business insights
+- Strengthened skills in **data storytelling** and presenting insights clearly through reports and presentations
+- Understood how raw datasets can be converted into a **decision-support system** for business use
+- Improved documentation and presentation skills using **Word and PowerPoint**
+---
+ 🏁 Conclusion
 
-This project strengthened my SQL skills in data structuring, writing complex queries, performing business analysis, and presenting actionable insights, while demonstrating real-world analytics capabilities on a popular food-industry dataset.
+
+
+This project demonstrates how SQL and Power BI can work together to transform raw transactional data into powerful business insights.  
+By analyzing Pizza Hut’s sales data, key patterns in customer behavior, revenue trends, and product performance were identified.  
+The insights gained from this analysis can help the business optimize inventory, refine menu offerings, boost high-performing categories, and improve overall sales strategy.
+
+Through this project, end-to-end data analytics skills were applied — from SQL-based data cleaning and KPI calculation to interactive dashboard creation in Power BI.  
+The final outcome is a clear and actionable view of Pizza Hut’s business performance, showcasing the impact of data-driven decision-making.
+
+---
+
+🔗 Connect with Me
+
+- 💼 **LinkedIn Profile:** www.linkedin.com/in/harshini-pulagala-3364a7251
+- 📂 **Email: harshini.pulagala.137@gmail.com
+  
+  
