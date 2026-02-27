@@ -1,12 +1,26 @@
-# 🍕 Pizza Hut Sales Analysis – SQL & Power BI Project
-📘 Project Overview
+# 🍕 SQL Pizza Hut Sales Analysis
 
-This project focuses on analyzing Pizza Hut’s sales data using SQL and Power BI to identify key business insights such as revenue trends, customer preferences, and top-selling pizza types.  
-The goal is to demonstrate how data analysis and visualization can support business decisions and optimize sales performance.
+## 📌 Project Overview
+This project is an end-to-end **SQL-based data analytics project** performed on Pizza Hut’s sales dataset containing **21,000+ order records**.  
+The goal is to analyze **sales trends, menu performance, customer ordering behavior, and revenue insights**, and present findings through an **interactive Power BI dashboard**.
 
----
+## 📂 Dataset Information
+- Total Records: 21K+
+- Data Type: Relational sales data
+- Key Tables:
+  - orders
+  - order_details
+  - pizzas
+  - pizza_types
 
-🧰 🛠️ Tech Stack
+## 🎯 Business Objectives
+- Identify best-selling and low-performing pizzas
+- Analyze revenue contribution by category and size
+- Understand customer ordering behavior
+- Track sales trends and peak order times
+- Provide actionable insights for business growth
+
+## 🧰 🛠️ Tech Stack
 
 ### 🔹 SQL
 - Data cleaning and preprocessing  
@@ -30,9 +44,7 @@ The goal is to demonstrate how data analysis and visualization can support busin
 - MS Word → Project report  
 - PowerPoint → Presentation for insights
 
----
-
-🗂 Files Included
+## 🗂 Files Included
 
 | File / Folder              | Description                                                           |
 |----------------------------|-----------------------------------------------------------------------|
@@ -47,10 +59,8 @@ The goal is to demonstrate how data analysis and visualization can support busin
 | pizza_types.csv            | Includes pizza category details like Classic, Supreme, Veggie, etc.  |
 | pizzas.csv                 | Contains pizza names, pizza IDs, sizes, and prices                   |
 
----
 
-
-📊 SQL Analysis Performed
+## 📊 SQL Analysis Performed
 
 - Calculated **total number of orders placed**
 - Computed **total revenue generated** by Pizza Hut
@@ -60,9 +70,7 @@ The goal is to demonstrate how data analysis and visualization can support busin
 - Determined **average order value** and **pizzas per order**
 - Explored **sales performance by pizza size and category**
 
-
----
-💡 Key Insights
+## 💡 Key Insights
 
 Based on SQL computations and Power BI visualization, the following insights were identified:
 
@@ -95,8 +103,7 @@ Based on SQL computations and Power BI visualization, the following insights wer
 - Classic pizzas should remain a focus area due to high demand  
 - Seasonal trends suggest need for promotional offers during slow months  
 
----
-📚 Project Learnings
+## 📚 Project Learnings
 
 - Gained hands-on experience in **SQL for data cleaning, transformation, and KPI calculations**
 - Learned how to build **interactive dashboards** using Power BI with meaningful visuals and slicers
@@ -105,10 +112,8 @@ Based on SQL computations and Power BI visualization, the following insights wer
 - Strengthened skills in **data storytelling** and presenting insights clearly through reports and presentations
 - Understood how raw datasets can be converted into a **decision-support system** for business use
 - Improved documentation and presentation skills using **Word and PowerPoint**
----
- 🏁 Conclusion
 
-
+ ## 🏁 Conclusion
 
 This project demonstrates how SQL and Power BI can work together to transform raw transactional data into powerful business insights.  
 By analyzing Pizza Hut’s sales data, key patterns in customer behavior, revenue trends, and product performance were identified.  
