@@ -1,8 +1,8 @@
 # 🍕 SQL Pizza Hut Sales Analysis
 
 ## 📌 Project Overview
-This project is an end-to-end **SQL-based data analytics project** performed on Pizza Hut’s sales dataset containing **21,000+ order records**.  
-The goal is to analyze **sales trends, menu performance, customer ordering behavior, and revenue insights**, and present findings through an **interactive Power BI dashboard**.
+This project is an end-to-end SQL-based data analytics project performed on Pizza Hut’s sales dataset containing 21,000+ order records.  
+The goal is to analyze sales trends, menu performance, customer ordering behavior, and revenue insights, and present findings through an interactive Power BI dashboard.
 
 ## 📂 Dataset Information
 - Total Records: 21K+
@@ -105,13 +105,13 @@ Based on SQL computations and Power BI visualization, the following insights wer
 
 ## 📚 Project Learnings
 
-- Gained hands-on experience in **SQL for data cleaning, transformation, and KPI calculations**
-- Learned how to build **interactive dashboards** using Power BI with meaningful visuals and slicers
-- Improved understanding of **data modeling**, relationships, and DAX measures
-- Enhanced ability to **analyze sales data** and extract actionable business insights
-- Strengthened skills in **data storytelling** and presenting insights clearly through reports and presentations
-- Understood how raw datasets can be converted into a **decision-support system** for business use
-- Improved documentation and presentation skills using **Word and PowerPoint**
+- Gained hands-on experience in SQL for data cleaning, transformation, and KPI calculations
+- Learned how to build interactive dashboards using Power BI with meaningful visuals and slicers
+- Improved understanding of data modeling, relationships, and DAX measures
+- Enhanced ability to analyze sales data and extract actionable business insights
+- Strengthened skills in data storytelling and presenting insights clearly through reports and presentations
+- Understood how raw datasets can be converted into a decision-support system for business use
+- Improved documentation and presentation skills using Word and PowerPoint
 
  ## 🏁 Conclusion
 
